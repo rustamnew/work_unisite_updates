@@ -1,0 +1,21 @@
+<?
+$MESS["CONTENT_TYPE_NAME"] = "Content";
+$MESS["CONTENT_ELEMENT_NAME"] = "Elements";
+$MESS["CONTENT_SECTION_NAME"] = "Sections";
+
+$MESS["CATALOG_TYPE_NAME"]  = "Catalog";
+$MESS["CATALOG_ELEMENT_NAME"]  = "Elements";
+$MESS["CATALOG_SECTION_NAME"]  = "Sections";
+
+$MESS["SETTINGS_TYPE_NAME"]  = "Settings";
+$MESS["SETTINGS_ELEMENT_NAME"]  = "Elements";
+$MESS["SETTINGS_SECTION_NAME"]  = "Sections";
+
+$MESS["BANNERS_TYPE_NAME"] = "Banners";
+$MESS["BANNERS_ELEMENT_NAME"] = "Elements";
+$MESS["BANNERS_SECTION_NAME"] = "Sections";
+
+$MESS["REQUESTS_TYPE_NAME"] = "Requests";
+$MESS["REQUESTS_ELEMENT_NAME"] = "Elements";
+$MESS["REQUESTS_SECTION_NAME"] = "Sections";
+?>

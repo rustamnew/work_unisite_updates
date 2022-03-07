@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Главная", 
+		SITE_DIR."/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Услуги", 
+		SITE_DIR."/services/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Выигранные дела", 
+		SITE_DIR."/projects/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отзывы", 
+		SITE_DIR."/reviews/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"О компании", 
+		SITE_DIR."/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Информация", 
+		SITE_DIR."/info/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
