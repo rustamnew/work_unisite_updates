@@ -1,17 +1,17 @@
 <?
-$MESS ['T_IBLOCK_DESC_NEWS_DATE'] = "Ð’Ñ‹Ð²Ð¾Ð´Ð¸Ñ‚ÑŒ Ð´Ð°Ñ‚Ñƒ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°";
-$MESS ['T_IBLOCK_DESC_NEWS_NAME'] = "Ð’Ñ‹Ð²Ð¾Ð´Ð¸Ñ‚ÑŒ Ð½Ð°Ð·Ð²Ð°Ð½Ð¸Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð°";
-$MESS ['T_IBLOCK_DESC_NEWS_PICTURE'] = "Ð’Ñ‹Ð²Ð¾Ð´Ð¸Ñ‚ÑŒ Ð¸Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ Ð´Ð»Ñ Ð°Ð½Ð¾Ð½ÑÐ°";
-$MESS ['T_IBLOCK_DESC_NEWS_TEXT'] = "Ð’Ñ‹Ð²Ð¾Ð´Ð¸Ñ‚ÑŒ Ñ‚ÐµÐºÑÑ‚ Ð°Ð½Ð¾Ð½ÑÐ°";
-$MESS ['NAME'] = "ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ";
-$MESS ['TITLE'] = "Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº";
-$MESS ['SUBTITLE'] = "ÐŸÐ¾Ð´Ð·Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº";
-$MESS ['MINIMIZE_TITLE'] = "ÐœÐ¸Ð½Ð¸Ð¼Ð¸Ð·Ð¸Ñ€Ð¾Ð²Ð°Ñ‚ÑŒ Ð·Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº";
-$MESS ['READ_MORE'] = "Ð§Ð¸Ñ‚Ð°Ñ‚ÑŒ Ð´Ð°Ð»ÐµÐµ";
-$MESS ['COLUMNS'] = "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÑ‚Ð¾Ð»Ð±Ñ†Ð¾Ð²";
-$MESS ['COLUMNS_ONE'] = "ÐžÐ´Ð¸Ð½";
-$MESS ['COLUMNS_ONE_VIDEO'] = "ÐžÐ´Ð¸Ð½ Ñ Ð²Ð¸Ð´ÐµÐ¾";
-$MESS ['COLUMNS_TWO'] = "Ð”Ð²Ð°";
-$MESS ['IMAGE'] = "Ð˜Ð·Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ðµ Ð²Ð¸Ð´ÐµÐ¾";
-$MESS ['VIDEO_URL'] = "Ð¡ÑÑ‹Ð»ÐºÐ° Ð½Ð° Ð²Ð¸Ð´ÐµÐ¾";
+$MESS ['T_IBLOCK_DESC_NEWS_DATE'] = "Âûâîäèòü äàòó ýëåìåíòà";
+$MESS ['T_IBLOCK_DESC_NEWS_NAME'] = "Âûâîäèòü íàçâàíèå ýëåìåíòà";
+$MESS ['T_IBLOCK_DESC_NEWS_PICTURE'] = "Âûâîäèòü èçîáðàæåíèå äëÿ àíîíñà";
+$MESS ['T_IBLOCK_DESC_NEWS_TEXT'] = "Âûâîäèòü òåêñò àíîíñà";
+$MESS ['NAME'] = "Íàçâàíèå";
+$MESS ['TITLE'] = "Çàãîëîâîê";
+$MESS ['SUBTITLE'] = "Ïîäçàãîëîâîê";
+$MESS ['MINIMIZE_TITLE'] = "Ìèíèìèçèðîâàòü çàãîëîâîê";
+$MESS ['READ_MORE'] = "×èòàòü äàëåå";
+$MESS ['COLUMNS'] = "Êîëè÷åñòâî ñòîëáöîâ";
+$MESS ['COLUMNS_ONE'] = "Îäèí";
+$MESS ['COLUMNS_ONE_VIDEO'] = "Îäèí ñ âèäåî";
+$MESS ['COLUMNS_TWO'] = "Äâà";
+$MESS ['IMAGE'] = "Èçîáðàæåíèå âèäåî";
+$MESS ['VIDEO_URL'] = "Ññûëêà íà âèäåî";
 ?>

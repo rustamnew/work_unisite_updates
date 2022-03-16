@@ -1,0 +1,42 @@
+<?
+$MESS["WZD_OPTION_0"] = "Элемент";
+$MESS["WZD_OPTION_1"] = "*Название";
+$MESS["WZD_OPTION_2"] = "Название блока";
+$MESS["WZD_OPTION_3"] = "Заголовок";
+$MESS["WZD_OPTION_4"] = "Подзаголовок";
+$MESS["WZD_OPTION_5"] = "Текст кнопки";
+$MESS["WZD_OPTION_6"] = "Вариант 1";
+$MESS["WZD_OPTION_7"] = "Картинка (левая часть)";
+$MESS["WZD_OPTION_8"] = "Картинка (правая часть)";
+$MESS["WZD_OPTION_9"] = "Ссылка 1";
+$MESS["WZD_OPTION_10"] = "Ссылка 1 - Название";
+$MESS["WZD_OPTION_11"] = "Ссылка 1 - URL";
+$MESS["WZD_OPTION_12"] = "Ссылка 2";
+$MESS["WZD_OPTION_13"] = "Ссылка 2 - Название";
+$MESS["WZD_OPTION_14"] = "Ссылка 2 - URL";
+$MESS["WZD_OPTION_15"] = "Ссылка 3";
+$MESS["WZD_OPTION_16"] = "Ссылка 3 - Название";
+$MESS["WZD_OPTION_17"] = "Ссылка 3 - URL";
+$MESS["WZD_OPTION_18"] = "Ссылка 4";
+$MESS["WZD_OPTION_19"] = "Ссылка 4 - Название";
+$MESS["WZD_OPTION_20"] = "Ссылка 4 - URL";
+$MESS["WZD_OPTION_21"] = "Ссылка 5";
+$MESS["WZD_OPTION_22"] = "Ссылка 5 - Название";
+$MESS["WZD_OPTION_23"] = "Ссылка 5 - URL";
+$MESS["WZD_OPTION_24"] = "Ссылка 6";
+$MESS["WZD_OPTION_25"] = "Ссылка 6 - Название";
+$MESS["WZD_OPTION_26"] = "Ссылка 6 - URL";
+$MESS["WZD_OPTION_27"] = "Вариант 2";
+$MESS["WZD_OPTION_28"] = "Изображение";
+$MESS["WZD_OPTION_29"] = "Описание";
+$MESS["WZD_OPTION_30"] = "Счётчик";
+$MESS["WZD_OPTION_31"] = "Иконка счётчика";
+$MESS["WZD_OPTION_32"] = "Подпись счётчика";
+$MESS["WZD_OPTION_33"] = "Значение счётчика";
+$MESS["WZD_OPTION_34"] = "Дополнительно";
+$MESS["WZD_OPTION_35"] = "ID";
+$MESS["WZD_OPTION_36"] = "Активность";
+$MESS["WZD_OPTION_37"] = "Сортировка";
+$MESS["WZD_OPTION_38"] = "Символьный код";
+
+?>

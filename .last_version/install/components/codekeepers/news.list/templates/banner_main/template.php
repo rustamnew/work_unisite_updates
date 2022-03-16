@@ -198,6 +198,7 @@ $this->setFrameMode(true);
                                                     <?endif;?>
                                                 </div>
                                             <?endif;?>
+                                            <a class="<?if(!$arItem["PROPERTIES"]["url"]["VALUE"]):?>summonFormButton <?endif;?>btn-1 btn-2" href="<?=$arItem["PROPERTIES"]["url"]["VALUE"];?>"><?=$arItem["PROPERTIES"]["text"]["VALUE"];?></a>
                                         </div>
                                     </div>
                                 </div>

@@ -1,7 +1,7 @@
 <?
-$MESS["MAIN_UI_PAGINATION__PAGES"] = "Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ñ‹:";
-$MESS["MAIN_UI_PAGINATION__PREV"] = "ÐŸÑ€ÐµÐ´";
-$MESS["MAIN_UI_PAGINATION__NEXT"] = "Ð¡Ð»ÐµÐ´";
-$MESS["MAIN_UI_PAGINATION__PAGED"] = "ÐŸÐ¾ ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ð°Ð¼";
-$MESS["MAIN_UI_PAGINATION__ALL"] = "Ð’ÑÐµ";
+$MESS["MAIN_UI_PAGINATION__PAGES"] = "Ñòðàíèöû:";
+$MESS["MAIN_UI_PAGINATION__PREV"] = "Ïðåä";
+$MESS["MAIN_UI_PAGINATION__NEXT"] = "Ñëåä";
+$MESS["MAIN_UI_PAGINATION__PAGED"] = "Ïî ñòðàíèöàì";
+$MESS["MAIN_UI_PAGINATION__ALL"] = "Âñå";
 ?>

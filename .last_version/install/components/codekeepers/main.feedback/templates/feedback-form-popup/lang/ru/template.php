@@ -1,14 +1,14 @@
 <?
-$MESS ['MFT_NAME'] = "Ð’Ð°ÑˆÐµ Ð¸Ð¼Ñ";
-$MESS ['MFT_EMAIL'] = "Ð’Ð°Ñˆ E-mail";
-$MESS ['MFT_MESSAGE'] = "Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ";
-$MESS ['MFT_CAPTCHA'] = "Ð—Ð°Ñ‰Ð¸Ñ‚Ð° Ð¾Ñ‚ Ð°Ð²Ñ‚Ð¾Ð¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸Ñ… ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ð¹";
-$MESS ['MFT_CAPTCHA_CODE'] = "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ»Ð¾Ð²Ð¾ Ð½Ð° ÐºÐ°Ñ€Ñ‚Ð¸Ð½ÐºÐµ";
-$MESS ['MFT_SUBMIT'] = "ÐžÑ‚Ð¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ";
-$MESS ['YOUR_NAME'] = "Ð’Ð°ÑˆÐµ Ð¸Ð¼Ñ";
-$MESS ['YOUR_EMAIL'] = "Ð’Ð°Ñˆ Email";
-$MESS ['YOUR_PHONE'] = "Ð’Ð°Ñˆ Ñ‚ÐµÐ»ÐµÑ„Ð¾Ð½";
-$MESS ['YOUR_MESSAGE'] = "Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ";
-$MESS ['FORM_SUBTITLE'] = "ÐžÑÑ‚Ð°Ð²ÑŒÑ‚Ðµ Ð·Ð°ÑÐ²ÐºÑƒ Ð¸ Ð¼Ñ‹ Ð¿ÐµÑ€ÐµÐ·Ð²Ð¾Ð½Ð¸Ð¼ Ð’Ð°Ð¼ Ð² Ð±Ð»Ð¸Ð¶Ð°Ð¹ÑˆÐµÐµ Ð²Ñ€ÐµÐ¼Ñ!";
-$MESS ['ENTER_CODE'] = "ÐšÐ¾Ð´ Ñ ÐºÐ°Ñ€Ñ‚Ð¸Ð½ÐºÐ¸";
+$MESS ['MFT_NAME'] = "Âàøå èìÿ";
+$MESS ['MFT_EMAIL'] = "Âàø E-mail";
+$MESS ['MFT_MESSAGE'] = "Ñîîáùåíèå";
+$MESS ['MFT_CAPTCHA'] = "Çàùèòà îò àâòîìàòè÷åñêèõ ñîîáùåíèé";
+$MESS ['MFT_CAPTCHA_CODE'] = "Ââåäèòå ñëîâî íà êàðòèíêå";
+$MESS ['MFT_SUBMIT'] = "Îòïðàâèòü";
+$MESS ['YOUR_NAME'] = "Âàøå èìÿ";
+$MESS ['YOUR_EMAIL'] = "Âàø Email";
+$MESS ['YOUR_PHONE'] = "Âàø òåëåôîí";
+$MESS ['YOUR_MESSAGE'] = "Ñîîáùåíèå";
+$MESS ['FORM_SUBTITLE'] = "Îñòàâüòå çàÿâêó è ìû ïåðåçâîíèì Âàì â áëèæàéøåå âðåìÿ!";
+$MESS ['ENTER_CODE'] = "Êîä ñ êàðòèíêè";
 ?>

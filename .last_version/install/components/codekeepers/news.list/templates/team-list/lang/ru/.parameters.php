@@ -1,9 +1,9 @@
 <?
 
-$MESS ['NAME'] = "ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ";
-$MESS ['TITLE'] = "Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº";
-$MESS ['SUBTITLE'] = "ÐŸÐ¾Ð´Ð·Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº";
-$MESS ['SHOW_MODE'] = "Ð’Ð°Ñ€Ð¸Ð°Ð½Ñ‚ Ð¾Ñ‚Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ";
-$MESS ['SHOW_MODE_NORMAL'] = "ÐžÐ±Ñ‹Ñ‡Ð½Ñ‹Ð¹";
-$MESS ['SHOW_MODE_SLIDER'] = "Ð¡Ð»Ð°Ð¹Ð´ÐµÑ€";
+$MESS ['NAME'] = "Íàçâàíèå";
+$MESS ['TITLE'] = "Çàãîëîâîê";
+$MESS ['SUBTITLE'] = "Ïîäçàãîëîâîê";
+$MESS ['SHOW_MODE'] = "Âàðèàíò îòîáðàæåíèÿ";
+$MESS ['SHOW_MODE_NORMAL'] = "Îáû÷íûé";
+$MESS ['SHOW_MODE_SLIDER'] = "Ñëàéäåð";
 ?>

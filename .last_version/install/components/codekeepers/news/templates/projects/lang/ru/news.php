@@ -1,6 +1,6 @@
 <?
-$MESS ['SEARCH_LABEL'] = "ÐŸÐ¾Ð¸ÑÐº:";
-$MESS ['PROJECTS_SIDE_SOCIAL_TITLE'] = "Ð¡Ð¾Ñ†Ð¸Ð°Ð»ÑŒÐ½Ñ‹Ðµ ÑÐµÑ‚Ð¸";
-$MESS ['PROJECTS_SIDE_SECTIONS_TITLE'] = "Ð Ð°Ð·Ð´ÐµÐ»Ñ‹";
-$MESS ['PROJECTS_SIDE_BLOG_TITLE'] = "Ð›ÐµÐ½Ñ‚Ð° Ð½Ð¾Ð²Ð¾ÑÑ‚ÐµÐ¹";
+$MESS ['SEARCH_LABEL'] = "Ïîèñê:";
+$MESS ['PROJECTS_SIDE_SOCIAL_TITLE'] = "Ñîöèàëüíûå ñåòè";
+$MESS ['PROJECTS_SIDE_SECTIONS_TITLE'] = "Ðàçäåëû";
+$MESS ['PROJECTS_SIDE_BLOG_TITLE'] = "Ëåíòà íîâîñòåé";
 ?>

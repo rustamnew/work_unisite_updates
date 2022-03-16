@@ -4,17 +4,17 @@ $strPath2Lang = str_replace("\\", "/", __FILE__);
 $strPath2Lang = substr($strPath2Lang, 0, strlen($strPath2Lang)-strlen("/install/index.php"));
 include(GetLangFileName($strPath2Lang."/lang/", "/install/index.php"));
 
-Class codekeepers_justice extends CModule
+Class codekeepers_unisite extends CModule
 {
-	var $MODULE_ID = "codekeepers.justice";
+	var $MODULE_ID = "codekeepers.unisite";
 	var $MODULE_VERSION = "0.10.4";
 	var $MODULE_VERSION_DATE;
-	var $MODULE_NAME = "Justice";
+	var $MODULE_NAME = "Unisite";
 	var $MODULE_DESCRIPTION;
 	var $MODULE_CSS;
 	var $MODULE_GROUP_RIGHTS = "Y";
 
-	function codekeepers_justice()
+	function codekeepers_unisite()
 	{
 		$arModuleVersion = array();
 
@@ -36,8 +36,8 @@ Class codekeepers_justice extends CModule
 	{
 		global $DB, $DBType, $APPLICATION;
 
-		RegisterModule("codekeepers.justice");
-		RegisterModuleDependences("main", "OnBeforeProlog", "codekeepers.justice", "CJustice", "ShowPanel");
+		RegisterModule("codekeepers.unisite");
+		RegisterModuleDependences("main", "OnBeforeProlog", "codekeepers.unisite", "CUnisite", "ShowPanel");
 		
 		/*$strSql = "UPDATE b_option SET VALUE = 'Y' WHERE NAME = 'form_element_105'";
 		$DB->Query($strSql, false, $err_mess.__LINE__);
@@ -53,8 +53,8 @@ Class codekeepers_justice extends CModule
 	{
 		global $DB, $DBType, $APPLICATION;
 
-		UnRegisterModuleDependences("main", "OnBeforeProlog", "codekeepers.justice", "CJustice", "ShowPanel"); 
-		UnRegisterModule("codekeepers.justice");
+		UnRegisterModuleDependences("main", "OnBeforeProlog", "codekeepers.unisite", "CUnisite", "ShowPanel"); 
+		UnRegisterModule("codekeepers.unisite");
 		
 
 
@@ -76,7 +76,7 @@ Class codekeepers_justice extends CModule
 
 		CopyDirFiles($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/".$this->MODULE_ID."/install/components/", $_SERVER['DOCUMENT_ROOT']."/bitrix/components/", true, true);
 		CopyDirFiles($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/".$this->MODULE_ID."/install/wizards", $_SERVER["DOCUMENT_ROOT"]."/bitrix/wizards", true, true);
-		CopyDirFiles($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/".$this->MODULE_ID."/install/wizards/codekeepers/justice/site/templates/justice/", $_SERVER['DOCUMENT_ROOT']."/bitrix/templates/justice/", true, true);
+		CopyDirFiles($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/".$this->MODULE_ID."/install/wizards/codekeepers/unisite/site/templates/unisite/", $_SERVER['DOCUMENT_ROOT']."/bitrix/templates/unisite/", true, true);
 		return true;
 	}
 
@@ -86,7 +86,7 @@ Class codekeepers_justice extends CModule
 
 	function UnInstallFiles()
 	{
-		DeleteDirFilesEx("/bitrix/wizards/codekeepers/justice");
+		DeleteDirFilesEx("/bitrix/wizards/codekeepers/unisite");
 		return true;
 	}
 
@@ -99,7 +99,7 @@ Class codekeepers_justice extends CModule
 		$this->InstallEvents();
 		$this->InstallPublic();
 
-		$APPLICATION->IncludeAdminFile(GetMessage("SCOM_INSTALL_TITLE"), $_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/codekeepers.justice/install/step.php");
+		$APPLICATION->IncludeAdminFile(GetMessage("SCOM_INSTALL_TITLE"), $_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/codekeepers.unisite/install/step.php");
 	}
 
 	function DoUninstall()
@@ -109,7 +109,7 @@ Class codekeepers_justice extends CModule
 		$this->UnInstallDB();
 		$this->UnInstallFiles();
 		$this->UnInstallEvents();
-		$APPLICATION->IncludeAdminFile(GetMessage("SCOM_UNINSTALL_TITLE"), $_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/codekeepers.justice/install/unstep.php");
+		$APPLICATION->IncludeAdminFile(GetMessage("SCOM_UNINSTALL_TITLE"), $_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/codekeepers.unisite/install/unstep.php");
 	}
 }
 ?>

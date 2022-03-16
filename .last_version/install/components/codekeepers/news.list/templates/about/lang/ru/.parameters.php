@@ -1,6 +1,6 @@
 <?
-$MESS ['SHOW_MODE'] = "Ð’Ð°Ñ€Ð¸Ð°Ð½Ñ‚ Ð¾Ñ‚Ð¾Ð±Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ";
-$MESS ['SHOW_MODE_ONE'] = "Ð’Ð°Ñ€Ð¸Ð°Ð½Ñ‚ 1";
-$MESS ['SHOW_MODE_TWO'] = "Ð’Ð°Ñ€Ð¸Ð°Ð½Ñ‚ 2";
-$MESS ['SHOW_BUTTON'] = "ÐžÑ‚Ð¾Ð±Ñ€Ð°Ð¶Ð°Ñ‚ÑŒ ÐºÐ½Ð¾Ð¿ÐºÑƒ";
+$MESS ['SHOW_MODE'] = "Âàðèàíò îòîáðàæåíèÿ";
+$MESS ['SHOW_MODE_ONE'] = "Âàðèàíò 1";
+$MESS ['SHOW_MODE_TWO'] = "Âàðèàíò 2";
+$MESS ['SHOW_BUTTON'] = "Îòîáðàæàòü êíîïêó";
 ?>

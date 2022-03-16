@@ -1,7 +1,7 @@
 <?
-$MESS["REQUEST_CALL"] = "Ð—Ð°ÐºÐ°Ð·Ð°Ñ‚ÑŒ Ð·Ð²Ð¾Ð½Ð¾Ðº";
-$MESS["BUTTON_DETAIL"] = "ÐŸÐ¾Ð´Ñ€Ð¾Ð±Ð½ÐµÐµ";
-$MESS["PROMO_TITLE"] = "ÐÐºÑ†Ð¸Ð¸";
-$MESS["REVIEWS_TITLE"] = "ÐžÑ‚Ð·Ñ‹Ð²Ñ‹";
-$MESS["TEAM_TITLE"] = "Ð¡Ð¿ÐµÑ†Ð¸Ð°Ð»Ð¸ÑÑ‚Ñ‹";
+$MESS["REQUEST_CALL"] = "Çàêàçàòü çâîíîê";
+$MESS["BUTTON_DETAIL"] = "Ïîäðîáíåå";
+$MESS["PROMO_TITLE"] = "Àêöèè";
+$MESS["REVIEWS_TITLE"] = "Îòçûâû";
+$MESS["TEAM_TITLE"] = "Ñïåöèàëèñòû";
 ?>

@@ -1,15 +1,15 @@
 <?
 IncludeModuleLangFile(__FILE__);
-class CJustice
+class CUnisite
 {
 	function ShowPanel()
 	{
 
-		if ($GLOBALS["USER"]->IsAdmin() && COption::GetOptionString("main", "wizard_solution", "", SITE_ID) == "justice")
+		if ($GLOBALS["USER"]->IsAdmin() && COption::GetOptionString("main", "wizard_solution", "", SITE_ID) == "unisite")
 		{
 			$GLOBALS["APPLICATION"]->AddPanelButton(array(
-				"HREF" => "/bitrix/admin/wizard_install.php?lang=".LANGUAGE_ID."&wizardName=codekeepers:justice&wizardSiteID=".SITE_ID."&".bitrix_sessid_get(),
-				"ID" => "justice",
+				"HREF" => "/bitrix/admin/wizard_install.php?lang=".LANGUAGE_ID."&wizardName=codekeepers:unisite&wizardSiteID=".SITE_ID."&".bitrix_sessid_get(),
+				"ID" => "unisite",
 				"ICON" => "bx-panel-site-wizard-icon",
 				"MAIN_SORT" => 2500,
 				"TYPE" => "BIG",
@@ -24,9 +24,9 @@ class CJustice
 	}
 }
 CModule::AddAutoloadClasses(
-	'codekeepers.justice',
+	'codekeepers.unisite',
 	array(
-		'CJusticeMain' => 'classes/general/CJusticeMain.php'
+		'CUnisiteMain' => 'classes/general/CUnisiteMain.php'
 	)
 )
 ?>

@@ -1,7 +1,7 @@
 <?
-$MESS ['T_NEWS_DETAIL_BACK'] = "Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‚ Ðº ÑÐ¿Ð¸ÑÐºÑƒ";
-$MESS ['CATEGORIES'] = "ÐœÐ°Ñ‚ÐµÑ€Ð¸Ð°Ð»Ñ‹ Ð¿Ð¾ Ñ‚ÐµÐ¼Ðµ:";
-$MESS ['PROJECTS_SIDE_SOCIAL_TITLE'] = "Ð¡Ð¾Ñ†Ð¸Ð°Ð»ÑŒÐ½Ñ‹Ðµ ÑÐµÑ‚Ð¸";
-$MESS ['PROJECTS_SIDE_SECTIONS_TITLE'] = "Ð Ð°Ð·Ð´ÐµÐ»Ñ‹";
-$MESS ['PROJECTS_SIDE_BLOG_TITLE'] = "Ð›ÐµÐ½Ñ‚Ð° Ð½Ð¾Ð²Ð¾ÑÑ‚ÐµÐ¹";
+$MESS ['T_NEWS_DETAIL_BACK'] = "Âîçâðàò ê ñïèñêó";
+$MESS ['CATEGORIES'] = "Ìàòåðèàëû ïî òåìå:";
+$MESS ['PROJECTS_SIDE_SOCIAL_TITLE'] = "Ñîöèàëüíûå ñåòè";
+$MESS ['PROJECTS_SIDE_SECTIONS_TITLE'] = "Ðàçäåëû";
+$MESS ['PROJECTS_SIDE_BLOG_TITLE'] = "Ëåíòà íîâîñòåé";
 ?>
