@@ -16,38 +16,28 @@ $arServices = Array(
 	"iblock" => Array(
 		"NAME" => GetMessage("SERVICE_IBLOCK"),
 		"STAGES" => Array(
-			"types.php", //IBlock types
-
+			"types.php",
 			"about.php",
-
 			"banner_main.php",
 			"banner_call-to-action.php",
-
 			"career.php",
 			"discounts.php",
 			"faq.php",
 			"features1.php",
 			"features-block.php",
-
 			"feedback.php",
-
-			"gallery.php"
+			"gallery.php",
 			"goods.php",
 			"licence.php",
-
 			"messengers.php",
-
 			"news.php",
 			"plan.php",
 			"projects.php",
 			"reviews.php",
-
 			"settings_main.php",
-
 			"sidebar-contacts.php",
 			"social.php",
 			"team.php",
-
 			"services.php",
 		),
 	),

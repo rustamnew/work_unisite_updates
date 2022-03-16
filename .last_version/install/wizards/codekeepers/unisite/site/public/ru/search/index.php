@@ -4,7 +4,7 @@ $APPLICATION->SetPageProperty("image", SITE_TEMPLATE_PATH."/assets/images/header
 $APPLICATION->SetTitle("Результаты поиска");
 ?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:search.page", 
+	"codekeepers:search.page", 
 	"search-page", 
 	array(
 		"AJAX_MODE" => "N",

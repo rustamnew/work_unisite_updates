@@ -16,7 +16,7 @@ $this->setFrameMode(true);
 <?if($arParams["SHOW_SECTION"] == 'Y'):?>
 
 <?$APPLICATION->IncludeComponent(
-	"bitrix:catalog.section.list", 
+	"codekeepers:catalog.section.list", 
 	"shop-section-list", 
 	array(
 		"ADD_SECTIONS_CHAIN" => "N",
@@ -51,7 +51,7 @@ $this->setFrameMode(true);
 <?else:?>
 
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
+	"codekeepers:news.list",
 	"shop-list",
 	Array(
 		"IBLOCK_TYPE" => $arParams["IBLOCK_TYPE"],

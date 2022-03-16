@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("image", "/assets/images/header/04_header.jpg");
 $APPLICATION->SetTitle("Акции");
 ?><?$APPLICATION->IncludeComponent(
-	"bitrix:news.list", 
+	"codekeepers:news.list", 
 	"discounts", 
 	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",

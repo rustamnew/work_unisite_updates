@@ -7,7 +7,7 @@ $APPLICATION->SetTitle("Карьера");
 	<div class="container">
 		<div class="row incl_area">
 			<?$APPLICATION->IncludeComponent(
-	"bitrix:news", 
+	"codekeepers:news", 
 	"career", 
 	array(
 		"ADD_ELEMENT_CHAIN" => "Y",
@@ -105,7 +105,7 @@ $APPLICATION->SetTitle("Карьера");
 </div>
 
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list", 
+	"codekeepers:news.list", 
 	"blog-feed", 
 	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",

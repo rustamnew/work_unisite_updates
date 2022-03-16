@@ -4,7 +4,7 @@ $APPLICATION->SetPageProperty("image", "/assets/images/header/04_header.jpg");
 $APPLICATION->SetTitle("Магазин");
 ?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news", 
+	"codekeepers:news", 
 	"shop", 
 	array(
 		"COMPONENT_TEMPLATE" => "shop",

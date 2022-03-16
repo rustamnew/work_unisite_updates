@@ -10,7 +10,7 @@ $APPLICATION->SetTitle("Проекты");
 		<div class="row">
 			<div class="col-lg-4">
 				<?$APPLICATION->IncludeComponent(
-					"bitrix:news.list", 
+					"codekeepers:news.list", 
 					"sidebar-social", 
 					array(
 						"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -77,7 +77,7 @@ $APPLICATION->SetTitle("Проекты");
 				);?>
 
 				<?$APPLICATION->IncludeComponent(
-					"bitrix:catalog.section.list", 
+					"codekeepers:catalog.section.list", 
 					"sidebar-section-list", 
 					array(
 						"ADD_SECTIONS_CHAIN" => "Y",
@@ -111,7 +111,7 @@ $APPLICATION->SetTitle("Проекты");
 				);?>
 				
 				<?$APPLICATION->IncludeComponent(
-					"bitrix:news.list", 
+					"codekeepers:news.list", 
 					"blog-feed-sidebar", 
 					array(
 						"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -180,7 +180,7 @@ $APPLICATION->SetTitle("Проекты");
 
 			<div class="col-lg-8">
 				<?$APPLICATION->IncludeComponent(
-	"bitrix:news", 
+	"codekeepers:news", 
 	"projects", 
 	array(
 		"ADD_ELEMENT_CHAIN" => "N",

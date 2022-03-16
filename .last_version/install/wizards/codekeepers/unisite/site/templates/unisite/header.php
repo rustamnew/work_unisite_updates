@@ -205,7 +205,7 @@ $GLOBALS += CUnisiteMain::MainProperty($GLOBALS["codekeepers_block_id"]["setting
                             </div>
 
                             <?$APPLICATION->IncludeComponent(
-                                "bitrix:menu", 
+                                "codekeepers:menu", 
                                 "menu_header", 
                                 array(
                                     "ALLOW_MULTI_SELECT" => "N",
@@ -255,7 +255,7 @@ $GLOBALS += CUnisiteMain::MainProperty($GLOBALS["codekeepers_block_id"]["setting
                 </nav>
                 
                 <!-- :: Search Box -->
-                <?$APPLICATION->IncludeComponent("bitrix:search.form", "header_search", Array(
+                <?$APPLICATION->IncludeComponent("codekeepers:search.form", "header_search", Array(
                     "PAGE" => "#SITE_DIR#search/index.php",
                         "USE_SUGGEST" => "N",
                     ),
@@ -391,7 +391,7 @@ $GLOBALS += CUnisiteMain::MainProperty($GLOBALS["codekeepers_block_id"]["setting
                         </h4>
                         
 						<?$APPLICATION->IncludeComponent(
-							"bitrix:news.list", 
+							"codekeepers:news.list", 
 							"social", 
 							array(
 								"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -465,7 +465,7 @@ $GLOBALS += CUnisiteMain::MainProperty($GLOBALS["codekeepers_block_id"]["setting
 			
 			<?if($isMainPage):?>
 				<?$APPLICATION->IncludeComponent(
-					"bitrix:news.list", 
+					"codekeepers:news.list", 
 					"banner_main", 
 					array(
 						"COMPONENT_TEMPLATE" => "banner_main",
@@ -552,7 +552,7 @@ $GLOBALS += CUnisiteMain::MainProperty($GLOBALS["codekeepers_block_id"]["setting
 								<div class="banner">
 									<h1><?$APPLICATION->ShowTitle(false);?></h1>
                                     <?$APPLICATION->IncludeComponent(
-                                        "bitrix:breadcrumb",
+                                        "codekeepers:breadcrumb",
                                         "",
                                     Array()
                                     );?>

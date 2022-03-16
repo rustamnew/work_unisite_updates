@@ -15,7 +15,7 @@ $this->setFrameMode(true);
 
 
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
+	"codekeepers:news.list",
 	"shop-list",
 	Array(
 		"IBLOCK_TYPE" => $arParams["IBLOCK_TYPE"],

@@ -9,7 +9,7 @@ $APPLICATION->SetTitle("Блог");
 
 			<div class="col-lg-4">
 				<?$APPLICATION->IncludeComponent(
-					"bitrix:news.list", 
+					"codekeepers:news.list", 
 					"sidebar-social", 
 					array(
 						"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -80,7 +80,7 @@ $APPLICATION->SetTitle("Блог");
 				);?>
 					
 				<?$APPLICATION->IncludeComponent(
-					"bitrix:search.tags.cloud", 
+					"codekeepers:search.tags.cloud", 
 					"tags-blog", 
 					array(
 						"COMPONENT_TEMPLATE" => "tags-blog",
@@ -113,7 +113,7 @@ $APPLICATION->SetTitle("Блог");
 				);?>
 				
 				<?$APPLICATION->IncludeComponent(
-	"bitrix:news.list", 
+	"codekeepers:news.list", 
 	"blog-feed-sidebar", 
 	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -182,7 +182,7 @@ $APPLICATION->SetTitle("Блог");
 
 			<div class="col-lg-8">
 				<?$APPLICATION->IncludeComponent(
-	"bitrix:news", 
+	"codekeepers:news", 
 	"blog", 
 	array(
 		"ADD_ELEMENT_CHAIN" => "N",

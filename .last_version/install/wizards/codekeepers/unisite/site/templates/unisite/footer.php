@@ -20,7 +20,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
                                 <?endif;?>
 								<p><?=$GLOBALS["global_info"]["footer_description"]["TEXT"];?></p>
                                 <?$APPLICATION->IncludeComponent(
-                                    "bitrix:news.list", 
+                                    "codekeepers:news.list", 
                                     "social", 
                                     array(
                                         "ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -93,7 +93,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 								</div>
 
 								<?$APPLICATION->IncludeComponent(
-									"bitrix:menu", 
+									"codekeepers:menu", 
 									"menu_footer", 
 									array(
 										"COMPONENT_TEMPLATE" => "menu_footer",
@@ -121,7 +121,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 								</div>
 
 								<?$APPLICATION->IncludeComponent(
-									"bitrix:menu", 
+									"codekeepers:menu", 
 									"menu_footer", 
 									array(
 										"COMPONENT_TEMPLATE" => "menu_footer",
@@ -205,7 +205,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
                         array("MODE" => "php"));?>
                         
                         <?$APPLICATION->IncludeComponent(
-                            "bitrix:menu", 
+                            "codekeepers:menu", 
                             "menu_footer", 
                             array(
                                 "COMPONENT_TEMPLATE" => "menu_footer",
@@ -228,7 +228,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 			</footer>
 
 			<?$APPLICATION->IncludeComponent(
-				"bitrix:news.list", 
+				"codekeepers:news.list", 
 				"messengers_fixed", 
 				array(
 					"ADD_SECTIONS_CHAIN" => "N",

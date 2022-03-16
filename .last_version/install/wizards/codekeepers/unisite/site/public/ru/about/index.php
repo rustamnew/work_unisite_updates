@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("О нас");
 ?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list", 
+	"codekeepers:news.list", 
 	"about", 
 	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -90,7 +90,7 @@ $APPLICATION->SetTitle("О нас");
 	false
 );?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:catalog.section.list", 
+	"codekeepers:catalog.section.list", 
 	"services-block", 
 	array(
 		"ADD_SECTIONS_CHAIN" => "N",
@@ -127,7 +127,7 @@ $APPLICATION->SetTitle("О нас");
 	false
 );?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
+	"codekeepers:news.list",
 	"team-list",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -189,7 +189,7 @@ $APPLICATION->SetTitle("О нас");
 	)
 );?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
+	"codekeepers:news.list",
 	"blog-feed",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",

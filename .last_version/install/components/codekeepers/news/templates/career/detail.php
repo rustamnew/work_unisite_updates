@@ -16,7 +16,7 @@ $this->setFrameMode(true);
 
 
 <?$ElementID = $APPLICATION->IncludeComponent(
-	"bitrix:news.detail",
+	"codekeepers:news.detail",
 	"career-detail",
 	Array(
 		"DISPLAY_DATE" => $arParams["DISPLAY_DATE"],

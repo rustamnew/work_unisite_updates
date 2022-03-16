@@ -10,10 +10,12 @@ $GLOBALS["codekeepers_block_id"] = array(
     'content_projects_id' => '#projects_IBLOCK_ID#',
     'content_reviews_id' => '#reviews_IBLOCK_ID#',
     'content_about_id' => '#about_IBLOCK_ID#',
-    'content_partners_id' => '#partners_IBLOCK_ID#',
+    
     'content_faq_id' => '#faq_IBLOCK_ID#',
     'content_faq-block_id' => '#faq-block_IBLOCK_ID#',
+
     'content_pricing_id' => '#pricing_IBLOCK_ID#',
+
     'content_career_id' => '#career_IBLOCK_ID#',
     'content_licence_id' => '#licence_IBLOCK_ID#',
     'content_gallery_id' => '#gallery_IBLOCK_ID#',
@@ -23,6 +25,7 @@ $GLOBALS["codekeepers_block_id"] = array(
     'settings_social_id' => '#social_IBLOCK_ID#',
     'settings_main_id' => '#settings_main_IBLOCK_ID#',
     'settings_main_element_id' => '#settings_main_ELEMENT_ID#',
+    
     'requests_feedback_id' => '#feedback_IBLOCK_ID#',
 )
 ?>

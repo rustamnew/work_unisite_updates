@@ -4,7 +4,7 @@ $APPLICATION->SetPageProperty("image", "/assets/images/header/04_header.jpg");
 $APPLICATION->SetTitle("Сертификаты");
 ?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list", 
+	"codekeepers:news.list", 
 	"licence", 
 	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -74,7 +74,7 @@ $APPLICATION->SetTitle("Сертификаты");
 );?>
 
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list", 
+	"codekeepers:news.list", 
 	"banner_call-to-action", 
 	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -143,7 +143,7 @@ $APPLICATION->SetTitle("Сертификаты");
 );?>
 
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list", 
+	"codekeepers:news.list", 
 	"team-list", 
 	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -213,7 +213,7 @@ $APPLICATION->SetTitle("Сертификаты");
 	false
 );?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list", 
+	"codekeepers:news.list", 
 	"reviews", 
 	array(
 		"COMPONENT_TEMPLATE" => "reviews",
@@ -282,7 +282,7 @@ $APPLICATION->SetTitle("Сертификаты");
 	false
 );?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list", 
+	"codekeepers:news.list", 
 	"blog-feed", 
 	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",

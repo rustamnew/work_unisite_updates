@@ -220,19 +220,19 @@ class FinishStep extends CFinishWizardStep
 				$tovar_1 = $DB->Query("UPDATE b_iblock_fields SET DEFAULT_VALUE = '".$string_req_1."' WHERE IBLOCK_ID = '".$value."' AND FIELD_ID = 'CODE'");
 			}
 		}
-		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."news\index.php"; 
+		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."blog\index.php"; 
 		CWizardUtil::ReplaceMacros($iblockXMLFile, array("SITE_DIR" => WIZARD_SITE_DIR));
-		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."price\index.php"; 
+		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."career\index.php"; 
 		CWizardUtil::ReplaceMacros($iblockXMLFile, array("SITE_DIR" => WIZARD_SITE_DIR));
-		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."price\sale\index.php"; 
+		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."pricing\index.php"; 
 		CWizardUtil::ReplaceMacros($iblockXMLFile, array("SITE_DIR" => WIZARD_SITE_DIR));
 		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."projects\index.php"; 
 		CWizardUtil::ReplaceMacros($iblockXMLFile, array("SITE_DIR" => WIZARD_SITE_DIR));
 		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."services\index.php"; 
 		CWizardUtil::ReplaceMacros($iblockXMLFile, array("SITE_DIR" => WIZARD_SITE_DIR));
-		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."specialists\index.php"; 
+		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."shop\index.php"; 
 		CWizardUtil::ReplaceMacros($iblockXMLFile, array("SITE_DIR" => WIZARD_SITE_DIR));
-		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."stock\index.php"; 
+		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."team\index.php"; 
 		CWizardUtil::ReplaceMacros($iblockXMLFile, array("SITE_DIR" => WIZARD_SITE_DIR));
 
 

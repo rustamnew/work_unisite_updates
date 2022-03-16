@@ -14,7 +14,7 @@ $this->setFrameMode(true);
 ?>
 
 <?$APPLICATION->IncludeComponent(
-	"bitrix:catalog.section.list", 
+	"codekeepers:catalog.section.list", 
 	"pricing-section-list", 
 	array(
 		"ADD_SECTIONS_CHAIN" => "N",

@@ -2,7 +2,7 @@
 require($_SERVER['DOCUMENT_ROOT'].'/bitrix/header.php');
 $APPLICATION->SetTitle("Главная");
 ?><?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
+	"codekeepers:news.list",
 	"features1",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -62,7 +62,7 @@ $APPLICATION->SetTitle("Главная");
 	)
 );?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
+	"codekeepers:news.list",
 	"about",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -120,7 +120,7 @@ $APPLICATION->SetTitle("Главная");
 	)
 );?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
+	"codekeepers:news.list",
 	"projects",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -181,7 +181,7 @@ $APPLICATION->SetTitle("Главная");
 	)
 );?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
+	"codekeepers:news.list",
 	"banner_call-to-action",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -239,7 +239,7 @@ $APPLICATION->SetTitle("Главная");
 	)
 );?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
+	"codekeepers:news.list",
 	"pricing",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -300,7 +300,7 @@ $APPLICATION->SetTitle("Главная");
 	)
 );?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
+	"codekeepers:news.list",
 	"features-block",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -358,7 +358,7 @@ $APPLICATION->SetTitle("Главная");
 	)
 );?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
+	"codekeepers:news.list",
 	"team-list",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -420,7 +420,7 @@ $APPLICATION->SetTitle("Главная");
 	)
 );?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
+	"codekeepers:news.list",
 	"reviews",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
@@ -507,7 +507,7 @@ $APPLICATION->SetTitle("Главная");
 	)
 );?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:catalog.section.list", 
+	"codekeepers:catalog.section.list", 
 	"services-block", 
 	array(
 		"ADD_SECTIONS_CHAIN" => "N",
@@ -558,7 +558,7 @@ $APPLICATION->SetTitle("Главная");
 	)
 );?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
+	"codekeepers:news.list",
 	"blog-feed",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",

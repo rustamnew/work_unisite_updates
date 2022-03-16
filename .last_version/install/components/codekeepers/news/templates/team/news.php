@@ -15,7 +15,7 @@ $this->setFrameMode(true);
 
 
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list", 
+	"codekeepers:news.list", 
 	"team-list", 
 	array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",

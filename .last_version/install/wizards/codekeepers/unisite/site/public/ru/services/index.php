@@ -14,7 +14,7 @@ $APPLICATION->SetTitle("Услуги");
 					</h3>
 				</div>
 				<?$APPLICATION->IncludeComponent(
-	"bitrix:catalog.section.list", 
+	"codekeepers:catalog.section.list", 
 	"sidebar-section-list", 
 	array(
 		"ADD_SECTIONS_CHAIN" => "Y",
@@ -46,7 +46,7 @@ $APPLICATION->SetTitle("Услуги");
 	),
 	false
 );?>
-				<?$APPLICATION->IncludeComponent("bitrix:news.list", "sidebar-contacts", Array(
+				<?$APPLICATION->IncludeComponent("codekeepers:news.list", "sidebar-contacts", Array(
 					"ACTIVE_DATE_FORMAT" => "d.m.Y",	
 						"ADD_SECTIONS_CHAIN" => "N",	
 						"AJAX_MODE" => "N",	
@@ -118,7 +118,7 @@ $APPLICATION->SetTitle("Услуги");
 			</div>
 			<div class="col-lg-8">
 				<?$APPLICATION->IncludeComponent(
-	"bitrix:news", 
+	"codekeepers:news", 
 	"services", 
 	array(
 		"ADD_ELEMENT_CHAIN" => "Y",
@@ -216,7 +216,7 @@ $APPLICATION->SetTitle("Услуги");
 </section>
 
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.list",
+	"codekeepers:news.list",
 	"blog-feed",
 	Array(
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",

@@ -4,7 +4,7 @@ $APPLICATION->SetPageProperty("image", "/assets/images/header/04_header.jpg");
 $APPLICATION->SetTitle("Специалисты");
 ?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news", 
+	"codekeepers:news", 
 	"team", 
 	array(
 		"ADD_ELEMENT_CHAIN" => "N",
