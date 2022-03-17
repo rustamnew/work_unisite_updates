@@ -552,7 +552,7 @@ $GLOBALS += CUnisiteMain::MainProperty($GLOBALS["codekeepers_block_id"]["setting
 								<div class="banner">
 									<h1><?$APPLICATION->ShowTitle(false);?></h1>
                                     <?$APPLICATION->IncludeComponent(
-                                        "codekeepers:breadcrumb",
+                                        "bitrix:breadcrumb",
                                         "",
                                     Array()
                                     );?>

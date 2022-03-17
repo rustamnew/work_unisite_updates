@@ -446,7 +446,18 @@ $(document).ready(function () {
 
         if ($("#feedback-form-popup").find(".captcha-wrap").length > 0) {
             valide = false
-            let response = grecaptcha.getResponse(1)
+            
+            let n = 0
+
+			if ($("#feedback-form").find(".captcha-wrap").length > 0) {
+				n++
+			}
+			if ($("#feedback-form-contacts").find(".captcha-wrap").length > 0) {
+				n++
+			}
+            
+
+            let response = grecaptcha.getResponse(n)
             if(response.length == 0) {
                 console.log('wrong')
             } else {

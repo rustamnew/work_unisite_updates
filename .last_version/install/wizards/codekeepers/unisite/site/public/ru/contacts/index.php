@@ -126,6 +126,7 @@ $APPLICATION->SetPageProperty("image", "/assets/images/header/04_header.jpg");
 			3 => "MESSAGE",
 		),
 		"EVENT_MESSAGE_ID" => array(
+			0 => "#form_id#"
 		),
 		"FORM_PAGE" => "Контакты",
 		"FORM_TYPE" => "Форма на странице контактов",

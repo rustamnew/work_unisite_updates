@@ -52,6 +52,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST" && $_POST["submit"] <> '' && (!isset($_P
 			$PRODUCT_ID = $el->Add($arLoadProductArray);
 			CIBlockElement::SetPropertyValuesEx($PRODUCT_ID, $arLoadProductArray["IBLOCK_ID"], array("feedback_text" => $_POST["MESSAGE"]));
 			CIBlockElement::SetPropertyValuesEx($PRODUCT_ID, $arLoadProductArray["IBLOCK_ID"], array("feedback_phone" => $_POST["user_phone"]));
+			CIBlockElement::SetPropertyValuesEx($PRODUCT_ID, $arLoadProductArray["IBLOCK_ID"], array("feedback_subject" => $_POST["user_subject"]));
 			/***/
 
 			if(!empty($arParams["EVENT_MESSAGE_ID"]))

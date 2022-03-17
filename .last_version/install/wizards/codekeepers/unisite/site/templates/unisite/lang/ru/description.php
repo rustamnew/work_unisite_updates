@@ -1,4 +1,4 @@
 <?
-$MESS["TEMPLATE_DESCRIPTION_NAME"] = "Unisite - Ð£Ð½Ð¸Ð²ÐµÑ€ÑÐ°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ°Ð¹Ñ‚";
-$MESS["TEMPLATE_DESCRIPTION_DESC"] = "Ð£Ð½Ð¸Ð²ÐµÑ€ÑÐ°Ð»ÑŒÐ½Ñ‹Ð¹ ÑˆÐ°Ð±Ð»Ð¾Ð½";
+$MESS["TEMPLATE_DESCRIPTION_NAME"] = "Unisite - Óíèâåðñàëüíûé ñàéò";
+$MESS["TEMPLATE_DESCRIPTION_DESC"] = "Óíèâåðñàëüíûé øàáëîí";
 ?>

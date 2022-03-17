@@ -1,14 +1,14 @@
 <?
-$MESS ['NAME'] = "ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ";
-$MESS ['TITLE'] = "Ð—Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº";
-$MESS ['SUBTITLE'] = "ÐŸÐ¾Ð´Ð·Ð°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº";
-$MESS ['LABEL_NAME'] = "ÐÐ°Ð´Ð¿Ð¸ÑÑŒ Ð˜Ð¼Ñ";
-$MESS ['LABEL_PHONE'] = "ÐÐ°Ð´Ð¿Ð¸ÑÑŒ Ð¢ÐµÐ»ÐµÑ„Ð¾Ð½";
-$MESS ['LABEL_SUBJECT'] = "ÐÐ°Ð´Ð¿Ð¸ÑÑŒ Ð¢ÐµÐ¼Ð°";
-$MESS ['LABEL_MESSAGE'] = "ÐÐ°Ð´Ð¿Ð¸ÑÑŒ Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ";
-$MESS ['PLACEHOLDER_NAME'] = "Placeholder Ð˜Ð¼Ñ";
-$MESS ['PLACEHOLDER_PHONE'] = "Placeholder Ð¢ÐµÐ»ÐµÑ„Ð¾Ð½";
-$MESS ['PLACEHOLDER_SUBJECT'] = "Placeholder Ð¢ÐµÐ¼Ð°";
-$MESS ['PLACEHOLDER_MESSAGE'] = "Placeholder Ð¡Ð¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ";
-$MESS ['SUBMIT_TEXT'] = "Ð¢ÐµÐºÑÑ‚ ÐºÐ½Ð¾Ð¿ÐºÐ¸";
+$MESS ['NAME'] = "Íàçâàíèå";
+$MESS ['TITLE'] = "Çàãîëîâîê";
+$MESS ['SUBTITLE'] = "Ïîäçàãîëîâîê";
+$MESS ['LABEL_NAME'] = "Íàäïèñü Èìÿ";
+$MESS ['LABEL_PHONE'] = "Íàäïèñü Òåëåôîí";
+$MESS ['LABEL_SUBJECT'] = "Íàäïèñü Òåìà";
+$MESS ['LABEL_MESSAGE'] = "Íàäïèñü Ñîîáùåíèå";
+$MESS ['PLACEHOLDER_NAME'] = "Placeholder Èìÿ";
+$MESS ['PLACEHOLDER_PHONE'] = "Placeholder Òåëåôîí";
+$MESS ['PLACEHOLDER_SUBJECT'] = "Placeholder Òåìà";
+$MESS ['PLACEHOLDER_MESSAGE'] = "Placeholder Ñîîáùåíèå";
+$MESS ['SUBMIT_TEXT'] = "Òåêñò êíîïêè";
 ?>

@@ -1,4 +1,4 @@
 <?
-$MESS["HEADER_PHONE_TITLE"] = "Ð¢ÐµÐ»ÐµÑ„Ð¾Ð½ : ";
+$MESS["HEADER_PHONE_TITLE"] = "Òåëåôîí : ";
 $MESS["HEADER_EMAIL_TITLE"] = "Email : ";
-$MESS["HEADER_NAV_MAINPAGE"] = "Ð“Ð»Ð°Ð²Ð½Ð°Ñ";
+$MESS["HEADER_NAV_MAINPAGE"] = "Ãëàâíàÿ";

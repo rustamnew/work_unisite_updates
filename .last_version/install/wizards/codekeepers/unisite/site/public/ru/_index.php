@@ -265,7 +265,7 @@ $APPLICATION->SetTitle("Главная");
 		"FIELD_CODE" => array(0=>"",1=>"",),
 		"FILTER_NAME" => "",
 		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => $GLOBALS["codekeepers_block_id"]["content_pricing_id"],
+		"IBLOCK_ID" => $GLOBALS["codekeepers_block_id"]["content_plan_id"],
 		"IBLOCK_TYPE" => "content",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
 		"INCLUDE_SUBSECTIONS" => "N",

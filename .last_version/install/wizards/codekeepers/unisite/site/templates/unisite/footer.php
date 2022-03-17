@@ -48,7 +48,7 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
                                         ),
                                         "FILTER_NAME" => "",
                                         "HIDE_LINK_WHEN_NO_DETAIL" => "N",
-                                        "IBLOCK_ID" => $GLOBALS["codekeepers_block_id"]["settings_messengers_id"],
+                                        "IBLOCK_ID" => $GLOBALS["codekeepers_block_id"]["settings_social_id"],
                                         "IBLOCK_TYPE" => "settings",
                                         "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
                                         "INCLUDE_SUBSECTIONS" => "N",
@@ -340,16 +340,13 @@ if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 							'sitekey' : "<?=$GLOBALS['global_info']['google_cap_code']?>"
 						});
 					}
-					if ( $('#recaptcha_short').length ) {
-						grecaptcha.render('recaptcha_short', {
-							'sitekey' : "<?=$GLOBALS['global_info']['google_cap_code']?>"
-						});
-					}
+
 					if ( $('#recaptcha_contacts').length ) {
 						grecaptcha.render('recaptcha_contacts', {
 							'sitekey' : "<?=$GLOBALS['global_info']['google_cap_code']?>"
 						});
 					}
+					
 					if ( $('#recaptcha_popup').length ) {
 						grecaptcha.render('recaptcha_popup', {
 							'sitekey' : "<?=$GLOBALS['global_info']['google_cap_code']?>"
