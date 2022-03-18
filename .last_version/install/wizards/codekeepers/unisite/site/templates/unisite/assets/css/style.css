@@ -798,6 +798,9 @@ p {
     text-align: center;
     border-radius: 50%;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .exit-menu-box:hover {

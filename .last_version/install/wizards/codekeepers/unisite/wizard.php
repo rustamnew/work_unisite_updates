@@ -260,31 +260,16 @@ class FinishStep extends CFinishWizardStep
 
         $DB->RunSQLBatch($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/codekeepers.unisite/install/db/install.sql");
 
-		/*
-		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."/contacts/index.php"; 
+		
+		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."/_index.php"; 
 		CWizardUtil::ReplaceMacros($iblockXMLFile, array("FORM_ID" => $FORM_ID));
 
-		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."/inc/blocks/form.php"; 
+		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."/contacts/index.php"; 
 		CWizardUtil::ReplaceMacros($iblockXMLFile, array("FORM_ID" => $FORM_ID));
 
 		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."/bitrix/templates/unisite/footer.php"; 
 		CWizardUtil::ReplaceMacros($iblockXMLFile, array("FORM_ID" => $FORM_ID));
-
-		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."/bitrix/templates/unisite/components/codekeepers/catalog.element.unisite/catalog_detail/template.php"; 
-		CWizardUtil::ReplaceMacros($iblockXMLFile, array("FORM_ID" => $FORM_ID));
-
-		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."/bitrix/templates/unisite/components/codekeepers/news.detail.unisite/sale/template.php"; 
-		CWizardUtil::ReplaceMacros($iblockXMLFile, array("FORM_ID" => $FORM_ID));
-
-		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."/bitrix/templates/unisite/components/codekeepers/news.unisite/specialists/news.php"; 
-		CWizardUtil::ReplaceMacros($iblockXMLFile, array("FORM_ID" => $FORM_ID));
-
-		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."/bitrix/templates/unisite/components/codekeepers/news.unisite/specialists/section.php"; 
-		CWizardUtil::ReplaceMacros($iblockXMLFile, array("FORM_ID" => $FORM_ID));
 		
-		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."/bitrix/templates/unisite/components/codekeepers/news.list.unisite/sale/template.php"; 
-		CWizardUtil::ReplaceMacros($iblockXMLFile, array("FORM_ID" => $FORM_ID));
-		*/
 
 		$wizard =& $this->GetWizard();
 		if ($wizard->GetVar("proactive") == "Y")

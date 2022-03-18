@@ -488,7 +488,9 @@ $APPLICATION->SetTitle("Главная");
 		"AJAX_MODE" => "Y",
 		"COMPONENT_TEMPLATE" => "feedback-form",
 		"EMAIL_TO" => "",
-		"EVENT_MESSAGE_ID" => array(0=>"7",),
+		"EVENT_MESSAGE_ID" => array(
+			0 => "#FORM_ID#"
+		),
 		"LABEL_MESSAGE" => "Сообщение",
 		"LABEL_NAME" => "Имя",
 		"LABEL_PHONE" => "Телефон",
