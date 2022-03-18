@@ -85,7 +85,7 @@ $dbProperty = CIBlockProperty::GetList(array(), array("IBLOCK_ID" => $iblockID))
 	while($arProp = $dbProperty->Fetch())
 	$arProperty[$arProp["CODE"]] = $arProp["ID"];
 
-	CUserOptions::SetOption("form", "form_element_".$iblockID, array("tabs" => 'edit1--#--'.GetMessage("WZD_OPTION_0").'--,--NAME--#--'.GetMessage("WZD_OPTION_1").'--,--PROPERTY_'.$arProperty["feedback_phone"].'--#--'.GetMessage("WZD_OPTION_2").'--,--PROPERTY_'.$arProperty["feedback_text"].'--#--'.GetMessage("WZD_OPTION_3").'--;--";}'));
+	CUserOptions::SetOption("form", "form_element_".$iblockID, array("tabs" => 'edit1--#--'.GetMessage("WZD_OPTION_0").'--,--NAME--#--'.GetMessage("WZD_OPTION_1").'--,--PROPERTY_'.$arProperty["feedback_subject"].'--#--'.GetMessage("WZD_OPTION_4").'--,--PROPERTY_'.$arProperty["feedback_phone"].'--#--'.GetMessage("WZD_OPTION_2").'--,--PROPERTY_'.$arProperty["feedback_text"].'--#--'.GetMessage("WZD_OPTION_3").'--;--";}'));
 
 CWizardUtil::ReplaceMacros(WIZARD_SITE_PATH."/include/iblock_id_link.php", array("feedback_IBLOCK_ID" => $iblockID));
 
