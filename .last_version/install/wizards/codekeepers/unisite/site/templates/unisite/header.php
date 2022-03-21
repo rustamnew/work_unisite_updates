@@ -28,7 +28,7 @@ $GLOBALS += CUnisiteMain::MainProperty($GLOBALS["codekeepers_block_id"]["setting
 		<title><?$APPLICATION->ShowTitle(false);?></title>
 
 		<!-- :: Favicon -->
-		<link rel="icon" type="image/png" href="assets/images/favicon.png">
+		<link rel="icon" type="image/png" href="<?=SITE_TEMPLATE_PATH?>/assets/images/favicon.png">
 
 		<!-- :: Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">

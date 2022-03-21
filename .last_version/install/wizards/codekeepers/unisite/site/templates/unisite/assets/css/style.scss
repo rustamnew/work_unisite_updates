@@ -308,6 +308,12 @@ p {
 }
 
 /* :: Navbar */
+.nav-bar-link {
+    margin: 0 10px;
+}
+.nav-bar-link ul {
+    display: flex;
+}
 .nav-bar.active{
     background-color: #FFF;
     -webkit-box-shadow: 0 3px 4px rgba(0,0,0,.07);

@@ -505,7 +505,9 @@ $APPLICATION->SetTitle("Главная");
 		"SUBMIT_TEXT" => "Отправить",
 		"SUBTITLE" => "Решения принимаются профессионалами. Мы гарантируем высокое качество оказания услуг.",
 		"TITLE" => "Форма обратной связи",
-		"USE_CAPTCHA" => "Y"
+		"USE_CAPTCHA" => "Y",
+		"FORM_PAGE" => "Главная",
+		"FORM_TYPE" => "Основная форма",
 	)
 );?>
 <?$APPLICATION->IncludeComponent(
