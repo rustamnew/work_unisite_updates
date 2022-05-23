@@ -68,7 +68,7 @@ $APPLICATION->SetTitle("Вопросы и ответы");
 		"NAME" => "Вопросы и ответы",
 		"TITLE" => "Опытные специалисты для повышения эффективности вашего бизнеса",
 		"SUBTITLE" => "Решения принимаются профессионалами. Мы гарантируем высокое качество оказания услуг.",
-		"IMAGE" => "/local/templates/unisite/assets/images/video-presentation/01_video-presentation.jpg",
+		"IMAGE" => "",
 		"VIDEO_URL" => "https://youtu.be/1zClcu8ud5A"
 	),
 	false

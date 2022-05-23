@@ -426,6 +426,11 @@ p {
     visibility: hidden;
 }
 
+.nav-bar .nav-bar-link > ul ul {
+    display: flex;
+    flex-direction: column;
+}
+
 .nav-bar .nav-bar-link > ul li:hover > ul {
     -webkit-transform: translateY(0px);
     -ms-transform: translateY(0px);
@@ -934,6 +939,10 @@ p {
     margin-bottom: 30px;
 }
 
+.fancybox .row {
+    justify-content: center;
+}
+
 .services-2 .services-item {
     padding: 40px;
     border: 1px solid #E9E9E9;
@@ -941,10 +950,15 @@ p {
 }
 
 .fancybox-2 .fancybox-item {
+    border-top: 1px solid #E9E9E9;
     border-bottom: 1px solid #E9E9E9;
     border-right: 1px solid #E9E9E9;
     padding: 45px;
     margin-bottom: 0;
+}
+
+.fancybox-2 .fancybox-item:first-child {
+    border-left: 1px solid #E9E9E9;
 }
 
 .fancybox .fancybox-item i,
@@ -1052,8 +1066,6 @@ p {
 
 .about .text-box a.btn-1 {
     margin-top: 30px;
-    display: block;
-    width: 180px;
 }
 
 .about .one {
@@ -2459,10 +2471,11 @@ p {
 }
 
 /* :: Blog */
+/*
 .blog.area {
     padding: 70px 0;
 }
-
+*/
 .blog-services {
     padding-top: 70px;
 }
@@ -2767,6 +2780,7 @@ p {
     margin-bottom: 0;
     /*text-transform: capitalize;*/
     margin-bottom: 25px;
+    margin-top: 20px;
 }
 
 .breadcrumb-header .banner ul li {
@@ -2924,11 +2938,15 @@ p {
     border-radius: 3px;
     bottom: 0;
     left: 5%;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .single-services-box .img-box-chart img {
     width: 100%;
+}
+
+.single-services-box .btn-1 {
+    margin-top: 20px;
 }
 
 /* :: Careers */
@@ -3180,6 +3198,10 @@ p {
 
 .shop.area .description p {
     margin: 25px 0 0 0;
+}
+
+.shop.area .btn-1 {
+    margin: 18px 0;
 }
 
 .product-detail-text-additional {
@@ -5239,7 +5261,7 @@ form input.form-submit-button:disabled,
 }
 
 .bolg.projects {
-    padding: 30px 0;
+    padding: 70px 0;
 }
 
 .bx-yandex-map {
@@ -5378,6 +5400,9 @@ form#feedback-form-contacts .captcha-wrap {
     height: 42px;
     fill: #2652DC;
 }
+.services-block .services-block-item-image img {
+    height: 42px;
+}
 .services-block .services-block-item-content p {
     margin: 0;
 }
@@ -5427,7 +5452,8 @@ form#feedback-form-contacts .captcha-wrap {
 .header .services-header .services-item span {
     font-size: 14px;
     font-weight: 600;
-    line-height: 1;
+    display: block;
+    line-height: 1.4;
     color: #0B0C26;
 }
 

@@ -14,13 +14,18 @@ $this->setFrameMode(true);
 ?>
 
 <ul class="services-section-list">
-	<?foreach($arResult["SECTIONS"] as $arItem):?>
-		<li class="services-section-item">
-			<a href="<?=$arItem["SECTION_PAGE_URL"]?>" class="item-image" style="background-image: url(<?=$arItem["PICTURE"]["SRC"]?>)"></a>
+	<?foreach($arResult["SECTIONS"] as $arSection):?>
+		<?
+		$this->AddEditAction($arSection['ID'], $arSection['EDIT_LINK'], CIBlock::GetArrayByID($arSection["IBLOCK_ID"], "SECTION_EDIT"));
+		$this->AddDeleteAction($arSection['ID'], $arSection['DELETE_LINK'], CIBlock::GetArrayByID($arSection["IBLOCK_ID"], "SECTION_DELETE"), array("CONFIRM" => GetMessage('CT_BCSL_ELEMENT_DELETE_CONFIRM')));
+		?>
+
+		<li class="services-section-item" id="<? echo $this->GetEditAreaId($arSection['ID']); ?>">
+			<a href="<?=$arSection["SECTION_PAGE_URL"]?>" class="item-image" style="background-image: url(<?=$arSection["PICTURE"]["SRC"]?>)"></a>
 
 			<div class="item-content">
-				<a href="<?=$arItem["SECTION_PAGE_URL"]?>"><h5><?=$arItem["NAME"]?></h5></a>
-				<p><?=$arItem["DESCRIPTION"]?></p>
+				<a href="<?=$arSection["SECTION_PAGE_URL"]?>"><h5><?=$arSection["NAME"]?></h5></a>
+				<p><?=$arSection["DESCRIPTION"]?></p>
 			</div>
 		</li>
 	<?endforeach;?>	

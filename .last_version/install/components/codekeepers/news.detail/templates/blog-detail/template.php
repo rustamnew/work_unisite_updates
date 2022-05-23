@@ -18,7 +18,7 @@ $this->setFrameMode(true);
 	<div class="col-md-12">
 		<div class="blog-item">
 			<div class="img-box">
-				<a class="open-post">
+				<a class="">
 					<img class="img-fluid" src="<?=$arResult["DETAIL_PICTURE"]["SRC"]?>" alt="01 Blog">
 				</a>
 				<?if($arResult["IBLOCK_SECTION_ID"]):?>

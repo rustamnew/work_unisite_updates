@@ -54,12 +54,7 @@ $APPLICATION->SetTitle("Блог");
 						"PARENT_SECTION_CODE" => "",
 						"PREVIEW_TRUNCATE_LEN" => "",
 						"PROPERTY_CODE" => array(
-							0 => "link_Facebook",
-							1 => "link_Instagram",
-							2 => "link_Twitter",
-							3 => "link_Youtube",
-							4 => "link_Vk",
-							5 => "",
+
 						),
 						"SET_BROWSER_TITLE" => "N",
 						"SET_LAST_MODIFIED" => "N",

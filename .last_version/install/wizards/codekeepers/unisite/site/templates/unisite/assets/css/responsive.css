@@ -90,6 +90,10 @@
     /*.nav-bar.active .nav-bar-link ul li a {
         color: #F1F1F1;
     }*/
+    .nav-bar-link ul {
+        flex-direction: column;
+    }
+
     .nav-bar .nav-bar-link ul li a {
         color: #F1F1F1;
         margin: 0;
@@ -350,6 +354,9 @@
         text-align: center;
     }
 
+    .bolg.projects {
+        padding: 30px 0;
+    }
     .bolg.projects .container > .row {
         flex-direction: column-reverse;
     }
@@ -371,6 +378,14 @@
 }
 /* :: Small devices */
 @media (max-width: 768px) {
+    .breadcrumb-header {
+        padding: 100px 0;
+    }
+
+    .breadcrumb-header .banner h1 {
+        font-size: 36px;
+    }
+
     .header .services-header {
         display: none !important;
     }

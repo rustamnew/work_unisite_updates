@@ -23,7 +23,7 @@ $this->setFrameMode(true);
 		<div class="col-md-6" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
 			<div class="blog-item">
 				<div class="img-box">
-					<a href="<?=$arItem["DETAIL_PAGE_URL"]?>" class="open-post">
+					<a href="<?=$arItem["DETAIL_PAGE_URL"]?>" class="">
 						<img class="img-fluid" src="<?=$arItem["PREVIEW_PICTURE"]["SRC"]?>" alt="01 Blog">
 					</a>
 

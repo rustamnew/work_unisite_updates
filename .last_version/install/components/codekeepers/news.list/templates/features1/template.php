@@ -26,6 +26,9 @@ $this->setFrameMode(true);
 					?>
 
 					<div class="col-md-6 col-lg-3">
+
+						<?if($arItem['PROPERTIES']['url']['VALUE']):?><a href="<?=$arItem['PROPERTIES']['url']['VALUE'];?>"><?endif;?>
+						
 						<div class="fancybox-item" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
 							<div class="fancybox-item-icon">
 								<?$path = CFile::GetPath($arItem['PROPERTIES']['icon']['VALUE']);?>
@@ -40,6 +43,9 @@ $this->setFrameMode(true);
 							<h4><?=$arItem["NAME"]?></h4>
 							<p><?=$arItem["PREVIEW_TEXT"]?></p>
 						</div>
+
+						<?if($arItem['PROPERTIES']['url']['VALUE']):?></a><?endif;?>
+
 					</div>
 				<?endforeach;?>	
 			</div>
@@ -56,6 +62,9 @@ $this->setFrameMode(true);
 					?>
 					
 					<div class="col-md-6 col-lg-3 p-0">
+
+						<?if($arItem['PROPERTIES']['url']['VALUE']):?><a href="<?=$arItem['PROPERTIES']['url']['VALUE'];?>"><?endif;?>
+						
 						<div class="fancybox-item" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
 							<div class="fancybox-item-icon">
 								<?$path = CFile::GetPath($arItem['PROPERTIES']['icon']['VALUE']);?>
@@ -70,6 +79,9 @@ $this->setFrameMode(true);
 							<h4><?=$arItem["NAME"]?></h4>
 							<p><?=$arItem["PREVIEW_TEXT"]?></p>
 						</div>
+						
+						<?if($arItem['PROPERTIES']['url']['VALUE']):?></a><?endif;?>
+							
 					</div>
 				<?endforeach;?>	
 			</div>

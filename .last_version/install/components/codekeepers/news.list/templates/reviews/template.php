@@ -29,8 +29,13 @@ $i = 0;
 			</div>
 			<div class="testimonial-grid">
 				<?foreach($arResult["ITEMS"] as $arItem):?>
+					<?
+					$this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
+					$this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
+					?>
+						
 					<div class="col-md-6 col-lg-4">
-						<div class="box-item">
+						<div class="box-item" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
 							<div class="text-box">
 								<div class="text-box-quote">
 									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/></svg>
@@ -93,7 +98,12 @@ $i = 0;
 			</div>
 			<div class="owl-testimonial-3 owl-carousel owl-theme">
 				<?foreach($arResult["ITEMS"] as $arItem):?>
-					<div class="box-item">
+					<?
+					$this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
+					$this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
+					?>
+							
+					<div class="box-item" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
 						<div class="text-box">
 							<div class="text-box-quote">
 								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z"/></svg>
@@ -150,8 +160,13 @@ $i = 0;
 				<div class="col-md-10 offset-md-1">
 					<div class="owl-testimonial owl-carousel owl-theme">
 						<?foreach($arResult["ITEMS"] as $arItem):?>
+							<?
+							$this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
+							$this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
+							?>
+							
 						
-							<div class="testimonial-item">
+							<div class="testimonial-item" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
 								<div class="text-box"><?=$arItem["PREVIEW_TEXT"]?></div>
 								<a class="testimonial-expand-button" data-fancybox data-src="#hidden-content-reviews<?=$i?>" href="javascript:;">
 									<?=GetMessage("BUTTON_DETAIL");?>

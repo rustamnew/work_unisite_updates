@@ -1,7 +1,10 @@
 <?
 require($_SERVER['DOCUMENT_ROOT'].'/bitrix/header.php');
 $APPLICATION->SetTitle("Главная");
-?><?$APPLICATION->IncludeComponent(
+?>
+
+<!--Преимущества -->
+<?$APPLICATION->IncludeComponent(
 	"codekeepers:news.list",
 	"features1",
 	Array(
@@ -61,6 +64,8 @@ $APPLICATION->SetTitle("Главная");
 		"STRICT_SECTION_CHECK" => "N"
 	)
 );?>
+
+<!--О нас -->
 <?$APPLICATION->IncludeComponent(
 	"codekeepers:news.list",
 	"about",
@@ -119,6 +124,8 @@ $APPLICATION->SetTitle("Главная");
 		"STRICT_SECTION_CHECK" => "N"
 	)
 );?>
+
+<!--Проекты -->
 <?$APPLICATION->IncludeComponent(
 	"codekeepers:news.list",
 	"projects",
@@ -180,6 +187,8 @@ $APPLICATION->SetTitle("Главная");
 		"TITLE" => "Наши последние проекты"
 	)
 );?>
+
+<!--Баннер "Призыв к действию" -->
 <?$APPLICATION->IncludeComponent(
 	"codekeepers:news.list",
 	"banner_call-to-action",
@@ -238,6 +247,8 @@ $APPLICATION->SetTitle("Главная");
 		"STRICT_SECTION_CHECK" => "N"
 	)
 );?>
+
+<!--Тарифы -->
 <?$APPLICATION->IncludeComponent(
 	"codekeepers:news.list",
 	"pricing",
@@ -299,6 +310,8 @@ $APPLICATION->SetTitle("Главная");
 		"TITLE" => "Начните сейчас"
 	)
 );?>
+
+<!--Блок "Преимущества" -->
 <?$APPLICATION->IncludeComponent(
 	"codekeepers:news.list",
 	"features-block",
@@ -357,6 +370,8 @@ $APPLICATION->SetTitle("Главная");
 		"STRICT_SECTION_CHECK" => "N"
 	)
 );?>
+
+<!--Специалисты -->
 <?$APPLICATION->IncludeComponent(
 	"codekeepers:news.list",
 	"team-list",
@@ -419,6 +434,8 @@ $APPLICATION->SetTitle("Главная");
 		"TITLE" => "Наши специалисты"
 	)
 );?>
+
+<!--Отзывы -->
 <?$APPLICATION->IncludeComponent(
 	"codekeepers:news.list",
 	"reviews",
@@ -481,7 +498,10 @@ $APPLICATION->SetTitle("Главная");
 		"SUBTITLE" => "Решения принимаются профессионалами. Мы гарантируем высокое качество оказания услуг.",
 		"TITLE" => "Что говорят наши клиенты"
 	)
-);?><?$APPLICATION->IncludeComponent(
+);?>
+
+<!--Форма обратной связи -->
+<?$APPLICATION->IncludeComponent(
 	"codekeepers:main.feedback",
 	"feedback-form",
 	Array(
@@ -510,6 +530,8 @@ $APPLICATION->SetTitle("Главная");
 		"FORM_TYPE" => "Основная форма",
 	)
 );?>
+
+<!--Блок "Услуги" -->
 <?$APPLICATION->IncludeComponent(
 	"codekeepers:catalog.section.list", 
 	"services-block", 
@@ -547,6 +569,8 @@ $APPLICATION->SetTitle("Главная");
 	),
 	false
 );?>
+
+<!--Карта -->
 <?$APPLICATION->IncludeComponent(
 	"bitrix:map.yandex.view",
 	"",
@@ -561,6 +585,8 @@ $APPLICATION->SetTitle("Главная");
 		"OPTIONS" => array(0=>"ENABLE_DBLCLICK_ZOOM",1=>"ENABLE_RIGHT_MAGNIFIER",2=>"ENABLE_DRAGGING",)
 	)
 );?>
+
+<!--Лента новостей -->
 <?$APPLICATION->IncludeComponent(
 	"codekeepers:news.list",
 	"blog-feed",
@@ -625,6 +651,9 @@ $APPLICATION->SetTitle("Главная");
 		"SUBTITLE" => "Решения принимаются профессионалами. Мы гарантируем высокое качество оказания услуг.",
 		"TITLE" => "Лента новостей"
 	)
-);?><?
+);?>
+
+
+<?
 require($_SERVER['DOCUMENT_ROOT'].'/bitrix/footer.php');
 ?>

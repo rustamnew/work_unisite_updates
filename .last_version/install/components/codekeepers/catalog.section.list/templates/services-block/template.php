@@ -40,7 +40,7 @@ $this->setFrameMode(true);
 				<div class="services-block-row<?if($countRow === 1):?> active<?endif;?>" data-number-row="<?=$countRow?>">
 					<?
 					$arSelect = Array("ID", "NAME", "DETAIL_PAGE_URL", "PREVIEW_TEXT");
-					$arFilter = Array("IBLOCK_ID" =>$arItem["IBLOCK_ID"], "IBLOCK_SECTION_ID"=> $arItem["ID"], "GLOBAL_ACTIVE"=>"Y");
+					$arFilter = Array("IBLOCK_ID" =>$arItem["IBLOCK_ID"], "IBLOCK_SECTION_ID"=> $arItem["ID"], "GLOBAL_ACTIVE"=>"Y", "ACTIVE"=>"Y");
 					$res = CIBlockElement::GetList(Array("SORT"=>"ASC"), $arFilter, false, false, $arSelect);
 				
 					while($ob = $res->GetNextElement()) {
@@ -53,20 +53,18 @@ $this->setFrameMode(true);
 									if($item = $_res->GetNext()) {
 										$props = CIBlockElement::GetByID($arFields["ID"])->GetNextElement()->GetProperties();?>
 										
-										
 										<?$path = CFile::GetPath($props["icon"]["VALUE"]);?>
 
-										<?
-										$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);
-										?>
-
 										<?if (stristr($path, '.svg')):?>
+											<?
+											$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);
+											?>
 											<div class="services-block-item-image">
 												<?print_r($svg_file);?>
 											</div>
 										<?elseif ($path):?>
 											<div class="services-block-item-image">
-												<img src="<?$path?>" alt="icon">
+												<img src="<?=$path?>" alt="icon">
 											</div>
 										<?endif;?>
 				

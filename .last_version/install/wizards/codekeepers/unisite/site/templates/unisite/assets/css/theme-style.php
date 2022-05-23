@@ -789,7 +789,7 @@ header.navs-2 .info-nav:hover .contact-nav p {
     fill: <?=$color1;?>;
 }
 .detail-item-content {
-    color: <?=$color2;?>;
+    /*color: <?=$color2;?>;*/
 }
 form input.form-submit-button,
 .quote form input.form-submit-button{
@@ -822,6 +822,9 @@ form input.form-submit-button,
 }
 .services-block .services-block-item h4{
     color: <?=$color2;?>;
+}
+.services-block .services-block-item-image svg {
+    fill: <?=$color1;?>;
 }
 .services-section-button.active{
     background-color: <?=$color2;?>;

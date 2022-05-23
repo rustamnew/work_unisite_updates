@@ -17,6 +17,7 @@ $MESS["WZD_OPTION_14"] = "ID";
 $MESS["WZD_OPTION_15"] = "Активность";
 $MESS["WZD_OPTION_16"] = "Сортировка";
 $MESS["WZD_OPTION_17"] = "Символьный код";
+$MESS["WZD_OPTION_18"] = "Свойства";
 
 
 ?>

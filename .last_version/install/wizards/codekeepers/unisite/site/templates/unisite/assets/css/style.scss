@@ -91,7 +91,7 @@ p {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgb(11 12 38 / 0.5);
+    background-color: rgba(11, 12, 38, 0.5);
 }
 .btn-1{
 
@@ -390,6 +390,10 @@ p {
     transform: translateY(30px);
     opacity: 0;
     visibility: hidden;
+}
+.nav-bar .nav-bar-link > ul ul {
+    display: flex;
+    flex-direction: column;
 }
 .nav-bar .nav-bar-link > ul li:hover > ul{
     -webkit-transform: translateY(00px);
@@ -843,21 +847,32 @@ p {
 }
 
 /* :: Fancybox */
+
 .fancybox .fancybox-item,
 .services .services-item{
     margin-bottom: 30px;
+}
+.fancybox .row {
+    justify-content: center;
 }
 .services-2 .services-item{
     padding: 40px;
     border: 1px solid #E9E9E9;
     border-radius: 3px;
 }
+
 .fancybox-2 .fancybox-item{
+    border-top: 1px solid #E9E9E9;
     border-bottom: 1px solid #E9E9E9;
     border-right: 1px solid #E9E9E9;
+    
     padding: 45px;
     margin-bottom: 0;
 }
+.fancybox-2 .fancybox-item:first-child{
+    border-left: 1px solid #E9E9E9;
+}
+
 .fancybox .fancybox-item i,
 .services .services-item i{
     color: $theme-color2;
@@ -952,8 +967,7 @@ p {
 }
 .about .text-box a.btn-1{
     margin-top: 30px;
-    display: block;
-    width: 180px;
+
 }
 .about .one{
     margin-top: 28px;
@@ -2304,10 +2318,11 @@ p {
 }
 
 /* :: Blog */
+/*
 .blog.area {
     padding: 70px 0;
 }
-
+*/
 
 
 .blog-services{
@@ -2579,6 +2594,7 @@ p {
     margin-bottom: 0;
     /*text-transform: capitalize;*/
     margin-bottom: 25px;
+    margin-top: 20px;
 }
 .breadcrumb-header .banner ul li{
     display: inline-block;
@@ -2724,10 +2740,13 @@ p {
     border-radius: 3px;
     bottom: 0;
     left: 5%;
-    font-size: 22px;
+    font-size: 18px;
 }
 .single-services-box .img-box-chart img{
     width: 100%;
+}
+.single-services-box .btn-1{
+    margin-top: 20px;
 }
 
 
@@ -2950,6 +2969,9 @@ p {
 }
 .shop.area .description p{
     margin: 25px 0 0 0
+}
+.shop.area .btn-1{
+    margin: 18px 0;
 }
 
 .product-detail-text-additional {
@@ -4876,7 +4898,7 @@ form input.form-submit-button,
 
 
 .bolg.projects {
-    padding: 30px 0;
+    padding: 70px 0;
 }
 
 
@@ -5035,6 +5057,10 @@ form#feedback-form-contacts .captcha-wrap{
             height: 42px;
             fill: $theme-color1;
         }
+
+        img {
+            height: 42px;
+        }
     }
 
     .services-block-item-content p{
@@ -5091,7 +5117,8 @@ form#feedback-form-contacts .captcha-wrap{
 .header .services-header .services-item span{
     font-size: 14px;
     font-weight: 600;
-    line-height: 1;
+    display: block;
+    line-height: 1.4;
     color: $theme-color2;
 }
 

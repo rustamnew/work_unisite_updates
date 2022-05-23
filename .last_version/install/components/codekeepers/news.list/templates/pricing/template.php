@@ -44,13 +44,13 @@ $this->setFrameMode(true);
 							<p><?=$arItem["PROPERTIES"]["subtitle"]["VALUE"];?></p>
 						</div>
 						<div class="item-last">
-							<ul>
-								<?if($arItem["PROPERTIES"]["feature1"]["VALUE"]):?><li><i class="fas fa-arrow-right"></i> <?=$arItem["PROPERTIES"]["feature1"]["VALUE"];?></li><?endif;?>
-								<?if($arItem["PROPERTIES"]["feature2"]["VALUE"]):?><li><i class="fas fa-arrow-right"></i> <?=$arItem["PROPERTIES"]["feature2"]["VALUE"];?></li><?endif;?>
-								<?if($arItem["PROPERTIES"]["feature3"]["VALUE"]):?><li><i class="fas fa-arrow-right"></i> <?=$arItem["PROPERTIES"]["feature3"]["VALUE"];?></li><?endif;?>
-								<?if($arItem["PROPERTIES"]["feature4"]["VALUE"]):?><li><i class="fas fa-arrow-right"></i> <?=$arItem["PROPERTIES"]["feature4"]["VALUE"];?></li><?endif;?>
-								<?if($arItem["PROPERTIES"]["feature5"]["VALUE"]):?><li><i class="fas fa-arrow-right"></i> <?=$arItem["PROPERTIES"]["feature5"]["VALUE"];?></li><?endif;?>
-							</ul>
+							<?if($arItem["PROPERTIES"]["feature"]["VALUE"]):?>
+								<ul>
+									<?foreach($arItem["PROPERTIES"]["feature"]["VALUE"] as $item):?>
+										<li><i class="fas fa-arrow-right"></i> <?=$item;?></li>
+									<?endforeach;?>
+								</ul>
+							<?endif;?>
 							<a href="#" class="summonFormButton btn-1"><?echo GetMessage("DETAIL")?></a>
 						</div>
 					</div>

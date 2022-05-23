@@ -267,7 +267,7 @@ class FinishStep extends CFinishWizardStep
 		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."/contacts/index.php"; 
 		CWizardUtil::ReplaceMacros($iblockXMLFile, array("FORM_ID" => $FORM_ID));
 
-		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].WIZARD_SITE_DIR."/bitrix/templates/unisite/footer.php"; 
+		$iblockXMLFile = $_SERVER["DOCUMENT_ROOT"].SITE_TEMPLATE_PATH."/footer.php"; 
 		CWizardUtil::ReplaceMacros($iblockXMLFile, array("FORM_ID" => $FORM_ID));
 		
 
