@@ -16,7 +16,7 @@ $this->setFrameMode(true);
 
 
 
-<div class="row faq faq-page" id="faqSite">
+<div class="row faq faq-page pricing-list" id="faqSite">
 	<div class="col">
 		<?$i = 0;?>
 		<?foreach($arResult["ITEMS"] as $arItem):?>
@@ -24,11 +24,16 @@ $this->setFrameMode(true);
 			$this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
 			$this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
 			?>
+			
+			<?$code = CIBlockSection::GetByID($arItem["IBLOCK_SECTION_ID"]);
+			if($ar_res = $code->GetNext()) {
+				$code = $ar_res["CODE"];
+			}?>
 
 			<div class="faq-box" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
 				<h5 class="question-header" id="faq_01">
 					<button class="click collapsed" type="button" data-toggle="collapse" data-target="#faq<?=$i;?>" aria-expanded="false" aria-controls="faqOne">
-						<span><?=$arItem["NAME"]?></span>
+						<span><a href="<?=SITE_DIR.'services/'.$code.'/'.$arItem["CODE"].'/';?>"><?=$arItem["NAME"]?></a></span>
 						<a class="summonFormButton btn-1 btn-smaller" href="/"><?=$arParams["BUTTON_TEXT"]?></a>
 						<a class="btn-service-price"><?=$arItem["PROPERTIES"]["price"]["VALUE"];?></a>
 						<i class="fas fa-plus"></i>

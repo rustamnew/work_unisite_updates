@@ -4225,7 +4225,7 @@ body.active-dark-mode {
     right: 0;
     bottom: 0;
     left: -100%;
-    z-index: 1000;
+    z-index: 1051;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.8);
@@ -4271,7 +4271,8 @@ body.active-dark-mode {
     margin-bottom: 30px;
 }
 
-.summonedForm input, .summonedForm textarea {
+.summonedForm input,
+.summonedForm textarea {
     margin-bottom: 30px;
     width: 80%;
     border-radius: 5px;
@@ -5298,6 +5299,14 @@ form#feedback-form-contacts .captcha-wrap {
     justify-content: space-between;
 }
 
+.pricing-section-list .item-careers {
+    padding: 20px;
+}
+
+.pricing-section-list .item-careers h4 a {
+    margin: 0;
+}
+
 .item-careers .submenu {
     display: flex;
     flex-direction: column;
@@ -5324,11 +5333,23 @@ form#feedback-form-contacts .captcha-wrap {
 .single-practice-areas .faq-box .summonFormButton {
     margin-left: auto;
     margin-right: 20px;
+    flex-shrink: 0;
 }
 
 .single-practice-areas .faq-box .btn-service-price {
     margin-bottom: 0;
     margin-right: 10px;
+    width: 140px;
+    text-align: center;
+}
+
+.pricing-list button {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.pricing-list button span a {
+    color: #0B0C26;
 }
 
 .services-sections-list {
@@ -5535,4 +5556,8 @@ form#feedback-form-contacts .captcha-wrap {
 .footer-contacts p {
     display: flex;
     flex-direction: column;
+}
+
+.gallery-page img {
+    cursor: pointer;
 }

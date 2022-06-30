@@ -37,7 +37,7 @@ $this->setFrameMode(true);
 									<?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
 									<?print_r($svg_file);?>
 								<?else:?>
-									<img src=<?$path?>>
+									<img src=<?=$path?>>
 								<?endif;?>
 							</div>
 							<h4><?=$arItem["NAME"]?></h4>
@@ -73,7 +73,7 @@ $this->setFrameMode(true);
 									<?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
 									<?print_r($svg_file);?>
 								<?else:?>
-									<img src=<?$path?>>
+									<img src=<?=$path?>>
 								<?endif;?>
 							</div>
 							<h4><?=$arItem["NAME"]?></h4>

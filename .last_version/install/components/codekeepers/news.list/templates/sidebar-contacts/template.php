@@ -30,7 +30,7 @@ $this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayB
 					<?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
 					<?print_r($svg_file);?>
 				<?else:?>
-					<img src=<?$path?>>
+					<img src=<?=$path?>>
 				<?endif;?>
 			</div>
 			<h5><?=$arItem["PROPERTIES"]["phone_title"]["VALUE"]?></h5>
@@ -61,7 +61,7 @@ $this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayB
 					<?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
 					<?print_r($svg_file);?>
 				<?else:?>
-					<img src=<?$path?>>
+					<img src=<?=$path?>>
 				<?endif;?>
 			</div>
 			<h5><?=$arItem["PROPERTIES"]["email_title"]["VALUE"]?></h5>
@@ -92,7 +92,7 @@ $this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayB
 					<?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
 					<?print_r($svg_file);?>
 				<?else:?>
-					<img src=<?$path?>>
+					<img src=<?=$path?>>
 				<?endif;?>
 			</div>
 			<h5><?=$arItem["PROPERTIES"]["address_title"]["VALUE"]?></h5>

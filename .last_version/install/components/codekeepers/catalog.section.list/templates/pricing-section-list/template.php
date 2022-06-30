@@ -35,7 +35,8 @@ $this->setFrameMode(true);?>
 
 
 			</h4>
-
+			
+			<?/*
 			<ul class="submenu">
 				<?
 				$arSelect = Array("ID", "NAME", "DETAIL_PAGE_URL");
@@ -47,6 +48,7 @@ $this->setFrameMode(true);?>
 					<li><a href="<?=$arFields["DETAIL_PAGE_URL"]?>"><?=$arFields["NAME"]?></a></li>
 				<?}?>
 			</ul>
+			*/?>
 
 		</div>
 	</div>

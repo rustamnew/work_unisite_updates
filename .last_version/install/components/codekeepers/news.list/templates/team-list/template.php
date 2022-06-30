@@ -56,7 +56,7 @@ $this->setFrameMode(true);
 												<?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
 												<?print_r($svg_file);?>
 											<?else:?>
-												<img src=<?$path?>>
+												<img src=<?=$path?>>
 											<?endif;?>
 										</a></li>
 									<?endif;?>
@@ -68,7 +68,7 @@ $this->setFrameMode(true);
 												<?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
 												<?print_r($svg_file);?>
 											<?else:?>
-												<img src=<?$path?>>
+												<img src=<?=$path?>>
 											<?endif;?>
 										</a></li>
 									<?endif;?>
@@ -80,7 +80,7 @@ $this->setFrameMode(true);
 												<?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
 												<?print_r($svg_file);?>
 											<?else:?>
-												<img src=<?$path?>>
+												<img src=<?=$path?>>
 											<?endif;?>
 										</a></li>
 									<?endif;?>
@@ -92,7 +92,7 @@ $this->setFrameMode(true);
 												<?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
 												<?print_r($svg_file);?>
 											<?else:?>
-												<img src=<?$path?>>
+												<img src=<?=$path?>>
 											<?endif;?>
 										</a></li>
 									<?endif;?>
@@ -104,7 +104,7 @@ $this->setFrameMode(true);
 												<?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
 												<?print_r($svg_file);?>
 											<?else:?>
-												<img src=<?$path?>>
+												<img src=<?=$path?>>
 											<?endif;?>
 										</a></li>
 									<?endif;?>
@@ -142,7 +142,7 @@ $this->setFrameMode(true);
 											<?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
 											<?print_r($svg_file);?>
 										<?else:?>
-											<img src=<?$path?>>
+											<img src=<?=$path?>>
 										<?endif;?>
 									</a></li>
 								<?endif;?>
@@ -154,7 +154,7 @@ $this->setFrameMode(true);
 											<?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
 											<?print_r($svg_file);?>
 										<?else:?>
-											<img src=<?$path?>>
+											<img src=<?=$path?>>
 										<?endif;?>
 									</a></li>
 								<?endif;?>
@@ -166,7 +166,7 @@ $this->setFrameMode(true);
 											<?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
 											<?print_r($svg_file);?>
 										<?else:?>
-											<img src=<?$path?>>
+											<img src=<?=$path?>>
 										<?endif;?>
 									</a></li>
 								<?endif;?>
@@ -178,7 +178,7 @@ $this->setFrameMode(true);
 											<?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
 											<?print_r($svg_file);?>
 										<?else:?>
-											<img src=<?$path?>>
+											<img src=<?=$path?>>
 										<?endif;?>
 									</a></li>
 								<?endif;?>
@@ -190,7 +190,7 @@ $this->setFrameMode(true);
 											<?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
 											<?print_r($svg_file);?>
 										<?else:?>
-											<img src=<?$path?>>
+											<img src=<?=$path?>>
 										<?endif;?>
 									</a></li>
 								<?endif;?>

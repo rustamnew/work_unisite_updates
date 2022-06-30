@@ -308,7 +308,7 @@ $GLOBALS += CUnisiteMain::MainProperty($GLOBALS["codekeepers_block_id"]["setting
                                         <?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
                                         <?print_r($svg_file);?>
                                     <?else:?>
-                                        <img src=<?$path?>>
+                                        <img src=<?=$path?>>
                                     <?endif;?>
                                 </div>
                                 <div class="box">
@@ -339,7 +339,7 @@ $GLOBALS += CUnisiteMain::MainProperty($GLOBALS["codekeepers_block_id"]["setting
                                         <?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
                                         <?print_r($svg_file);?>
                                     <?else:?>
-                                        <img src=<?$path?>>
+                                        <img src=<?=$path?>>
                                     <?endif;?>
                                 </div>
                                 <div class="box">
@@ -370,7 +370,7 @@ $GLOBALS += CUnisiteMain::MainProperty($GLOBALS["codekeepers_block_id"]["setting
                                         <?$svg_file = file_get_contents( $_SERVER["DOCUMENT_ROOT"].$path);?>
                                         <?print_r($svg_file);?>
                                     <?else:?>
-                                        <img src=<?$path?>>
+                                        <img src=<?=$path?>>
                                     <?endif;?>
                                 </div>
                                 <div class="box">

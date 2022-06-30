@@ -293,7 +293,8 @@ header.navs-3 .nav-bar .nav-bar-link ul li a:hover{
 
     color: <?=$color1;?>;
 }
-.testimonial-expand-button {
+.testimonial-expand-button, 
+.testimonial-expand-button:focus {
     color: <?=$color1;?>;
 }
 .testimonial-expand-button:hover {

@@ -145,7 +145,7 @@ $APPLICATION->SetPageProperty("image", "/assets/images/header/04_header.jpg");
 		"COMPONENT_TEMPLATE" => "feedback-form-contacts",
 		"USE_CAPTCHA" => "Y",
 		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
-		"EMAIL_TO" => "1rustamnew1@gmail.com",
+		"EMAIL_TO" => "",
 		"SUBMIT_TEXT" => "Отправить"
 	),
 	false

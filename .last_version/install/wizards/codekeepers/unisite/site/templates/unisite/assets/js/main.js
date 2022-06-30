@@ -285,6 +285,27 @@ $(document).ready(function () {
             }
         }
     });
+    $('.gallery-slider').owlCarousel({
+        loop: false,
+        margin: 20,
+        smartSpeed: 1000,
+        autoplay: 2000,
+        autoplayHoverPause: true,
+        mouseDrag: true,
+        touchDrag: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            991: {
+                items: 3
+            }
+        }
+    });
+
     
     // :: Add Class Active To Navbar (.gallery .list-name-gallery li)
     $('.case-study-list .list-name-case li').on('click', function () {
