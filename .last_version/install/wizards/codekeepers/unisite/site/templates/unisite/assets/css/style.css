@@ -5214,6 +5214,10 @@ header.navs-3 .nav-bar.active {
     height: 40px;
 }
 
+.provide .container .row {
+    justify-content: center;
+}
+
 .detail-item-content {
     color: #0B0C26;
     font-weight: 500;

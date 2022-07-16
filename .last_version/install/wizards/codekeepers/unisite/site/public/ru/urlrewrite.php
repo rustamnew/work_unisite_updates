@@ -64,4 +64,12 @@ $arUrlRewrite=array (
     'PATH' => '/shop/index.php',
     'SORT' => 100,
   ),
+  31 => 
+  array (
+    'CONDITION' => '#^/gallery/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/gallery/index.php',
+    'SORT' => 100,
+  ),
 );

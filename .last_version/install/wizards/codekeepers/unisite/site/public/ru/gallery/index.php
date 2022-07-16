@@ -47,7 +47,7 @@ $APPLICATION->SetTitle("Ãàëåğåÿ");
 		"NAME" => "",
 		"TITLE" => "",
 		"SUBTITLE" => "",
-		"SHOW_MODE" => "slider",
+		"SHOW_MODE" => "one",
 		"PREVIEW_TRUNCATE_LEN" => "",
 		"LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"LIST_FIELD_CODE" => array(

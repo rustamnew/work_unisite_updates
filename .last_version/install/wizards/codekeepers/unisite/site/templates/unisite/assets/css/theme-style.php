@@ -2,6 +2,7 @@
 $color1 = $GLOBALS['global_info']['color1'];
 $color2 = $GLOBALS['global_info']['color2'];
 $color3 = $GLOBALS['global_info']['color3'];
+$colorOverlay = $GLOBALS['global_info']['color_overlay'];
 ?>
 <style type="text/css">
     /**/
@@ -848,5 +849,8 @@ form input.form-submit-button,
 }
 .career-detail-page h4 {
     color: <?=$color2;?>;
+}
+.overlay {
+    background-color: <?=$colorOverlay;?>;
 }
 </style>

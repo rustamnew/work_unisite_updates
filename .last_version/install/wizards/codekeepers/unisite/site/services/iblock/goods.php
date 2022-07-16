@@ -123,8 +123,15 @@ if($iblockID == false)
 			), 
 			'CODE' => array ( 
 				'IS_REQUIRED' => 'Y', 
-				'DEFAULT_VALUE' => '', 
-			), 
+				'DEFAULT_VALUE' => array(
+					"UNIQUE" => "Y", 
+					"TRANSLITERATION" => "Y",
+					"TRANS_LEN" => "300",
+					"TRANS_CASE" => "L",
+					"TRANS_SPACE" => "-",
+					"TRANS_OTHER" => "-",
+				), 
+			),  
 			'TAGS' => array ( 
 				'IS_REQUIRED' => 'N', 
 				'DEFAULT_VALUE' => '', 

@@ -23,7 +23,6 @@ $arTemplateParameters = array(
 		"DEFAULT" => "one",
 		"VALUES" => array(
 			"one" => GetMessage("SHOW_MODE_ONE"),
-			"two" => GetMessage("SHOW_MODE_TWO"),
 			"slider" => GetMessage("SHOW_MODE_SLIDER"),
 		),
 		"REFRESH" => "Y"
